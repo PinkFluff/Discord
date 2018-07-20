@@ -1,5 +1,4 @@
 client.on('Yeet', message=> {
-    if (message.isMentioned(client.user)) {
     message.reply('Yeet');
 }
 });
